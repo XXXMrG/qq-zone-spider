@@ -32,6 +32,7 @@ class Spider(object):
     
 
     def login(self):
+        # 去掉注释可以实现自动通过账号密码登录，否则需要手动扫描二维码
         #self.web.switch_to_frame('login_frame')
         # log=self.web.find_element_by_id("switcher_plogin")
         # log.click()
